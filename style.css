@@ -1,0 +1,53 @@
+body{
+    background-image: url('thems2.jpg');
+}
+.window{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 400px;
+    padding: 30px;
+    background-image: url('thems.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+.block {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inpt {
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+.ulList{
+    width: 100%;
+}
+.btn {
+    outline: none;
+    width: 102%;
+    height: 30px;
+}
+.spisok{
+    padding-left: 0px;
+    list-style: none;
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+.liList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
